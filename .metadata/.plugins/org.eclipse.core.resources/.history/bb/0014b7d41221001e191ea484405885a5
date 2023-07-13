@@ -1,0 +1,16 @@
+package arrayList;
+import java.util.ArrayList;
+
+public class TrabalhandoArrayList {
+
+	public static void main(String[] args) {
+		
+		ArrayList<String>carros = new ArrayList<String>();
+		
+		carros.add("Fiat Uno");
+		
+		System.out.println(carros[0]);
+
+	}
+
+}
