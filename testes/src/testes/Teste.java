@@ -164,11 +164,42 @@ public class Teste {
 		System.out.println(temcpf1);
 		System.out.println(temcpf2.getClass());*/
 		
-		// ===== =====
+		// ===== ARRAY OF OBJECTS =====
+		
+		//Food[] myFavoritesFoods = new Food[3];
+		
+		/*
+		Food strogonoff = new Food("Strogonoff","De frango",10.5);
+		Food lasanha = new Food("Lasanha","Massa", 25);
+		Food macarronada = new Food("Macarronada","Massa", 6.99);
+	
+		Food[] myFavoritesFoods = {strogonoff, lasanha, macarronada};
+		
+		System.out.println(myFavoritesFoods[0].name);
+		*/
+		
+		// ===== Brincando com Arrays =====
+		/*int[] numbers = new int[3];
+		
+		numbers[0] = 37;
+		numbers[1] = 22;
+		numbers[2] = 89;
+		
+		for(int number : numbers) {
+			System.out.println(number);
+		}*/
 		
 		
+		// ===== Object Passing =====
 		
-
+		/*Car car1 = new Car("BMW");
+		Car car2 = new Car("Chevette");
+		
+		Garage garage = new Garage();
+		
+		garage.park(car1);
+		garage.park(car2);*/
+		
 		
 		
 		
